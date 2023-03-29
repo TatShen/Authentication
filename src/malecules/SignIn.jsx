@@ -14,7 +14,7 @@ function SignIn() {
 <Form>
       <Form.Group as={Row} className="mb-4" controlId="formPlaintextEmail">
         <Form.Label column sm="3">
-          Email
+          Login
         </Form.Label>
         <Col sm="10">
         <Form.Control type="Logil" placeholder="Login" />

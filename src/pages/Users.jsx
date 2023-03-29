@@ -1,5 +1,5 @@
 import Table from 'react-bootstrap/Table';
-import Checkbox from './Checkbox';
+import Checkbox from '../Checkbox';
 
 function Users() {
   return (

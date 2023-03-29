@@ -27,7 +27,7 @@ function SignUp() {
         </Col>
       </Form.Group>
       <Button variant="secondary" size="lg" disabled>
-        Send
+        Sign Up
       </Button>{' '}
     </Form>
   );

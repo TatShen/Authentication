@@ -1,36 +1,22 @@
 import SignUp from "../malecules/SignUp";
 import SignIn from "../malecules/SignIn";
 import React from "react";
+import {useDispatch, useSelector} from 'react-redux'
 
 
-class Form extends React.Component{
-    constructor(props){
-        super(props);
-        this.state={
-            isReg: false
-        }
+function Form (){
+ 
+    const state = useSelector(state=>state.isReg)
+    return (
+        <div>
+         {(state)?<SignIn></SignIn>:<SignUp></SignUp>}
+        </div>
+           
+        
+         
+       );
 }
 
-componentDidMount(){
-
-}
-
-componentWillUnmount(){
-
-}
-
-render(){
-        return (
-            <div>
-               <SignIn/>
-               <SignUp/>
-            </div>
-               
-            
-             
-           );
-    }
-}
 
 
 
