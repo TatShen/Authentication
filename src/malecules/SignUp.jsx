@@ -10,11 +10,11 @@ function SignUp() {
   return (
     <Form>
       <Form.Group as={Row} className="mb-4" controlId="formPlaintextEmail">
-        <Form.Label column sm="3">
-          Email
+        <Form.Label column sm="4">
+          E-mail
         </Form.Label>
         <Col sm="10">
-        <Form.Control type="e-mail" placeholder="Login" />
+        <Form.Control type="e-mail" placeholder="E-mail" />
         </Col>
       </Form.Group>
 
